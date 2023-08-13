@@ -8,11 +8,15 @@ source link: https://drive.google.com/drive/folders/1-U17SOSSX2crwlWUP1z98Ng42nY
 ## Explorations
 
 ### Exploratory Data Analysis
-I have collected the data, cleaned it and performed univariate and Bivariate analysis i.e. analysis of features with target variable to answer some interesting questions on the dataset through visualization.
+I have collected the data, cleaned it and performed univariate and Bivariate analysis i.e. analysis of features with target variable to answer some interesting questions on the dataset through visualization. Analyzed the dataset to identify patterns, correlations, and insights that impact flight delays.
 
 Data Cleaning : Removal of missing values, Label Encoding, Normalization, Splitting data to train and test datasets.
- 
 
+**Target to be predicted is if a flight is delayed or not based on the weather. Features from weather and flight data are considered for prediction**
+
+Split the flight delay dataset into training and testing subsets using an 80-20 ratio. The training subset, consisting of training samples, will be used to train and validate the predictive models. The testing subset, with testing samples, will remain unseen during training and will be utilized to assess the models' performance on new data.
+
+ 
 ##### Models used:
 Logistic Regression is incredibly easy to implement and very efficient to train. 
 
@@ -20,7 +24,7 @@ Logistic Regression is incredibly easy to implement and very efficient to train.
 -> After using logistic regression, I have implemented through decision tree classifier, which did not meet the accuracy of logistic regression.But definitely, both models have shown that they can be very successful in solving classification problems.
 
 Decision Tree Classifier
-Support vector Classifier(There is no much difference between support vector classifier without kernel and SVC with kernel).
+Support vector Classifier
 Random Forest Classifier
 Neural Networks
 
@@ -34,3 +38,9 @@ Neural Networks
 -[Clustering & NN](clustering.ipynb)
 
 Visualizations can be found in Initial Exploration.
+
+### Results and Analysis
+-[Results and Analysis](results.md)
+
+Among the evaluated models, Logistic Regression and Decision Tree show similar performance, with the Support Vector Machine showing some improvement in class 1 recall.
+Further analysis and experimentation could focus on optimizing model parameters or exploring ensemble techniques to improve predictive performance, particularly for identifying delayed flights.
