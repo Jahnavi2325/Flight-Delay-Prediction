@@ -23,10 +23,15 @@ Logistic Regression is incredibly easy to implement and very efficient to train.
 (Logistic Regression implementation is best instead of Linear Regression because the target variable in the dataset is of type categorical, not continuous. So, my dataset is not suitable for linear regression.)
 -> After using logistic regression, I have implemented through decision tree classifier, which did not meet the accuracy of logistic regression.But definitely, both models have shown that they can be very successful in solving classification problems.
 
-Decision Tree Classifier
-Support vector Classifier
-Random Forest Classifier
-Neural Networks
+**Decision Tree Classifier**: A decision tree  learnt from historical flight data to make decisions about whether a flight is likely to be delayed or not based on different attributes like departure time, weather conditions, etc.
+It's an interpretable algorithm helped to identify important factors contributing to flight delays.
+
+**Support vector Classifier**: SVM analyzed features of flights and determine whether they are likely to be delayed or not and also handled high-dimensional data well and are effective in cases where classes are not linearly separable.
+
+**Random Forest Classifier**: Aggregate the predictions of individual decision trees to provide a more robust and accurate prediction of flight delays and handled complex relationships between features and predicting delays more accurately.
+
+**Neural Networks**: Neural network learnt complex relationships between flight attributes and delays, potentially leading to highly accurate predictions.
+However, neural networks might require more data and computational resources for training.
 
 ### Links to Notebooks
 -[Initial Exploration](initial_exploration.ipynb)
