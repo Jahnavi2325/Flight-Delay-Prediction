@@ -42,5 +42,3 @@ Visualizations can be found in Initial Exploration.
 ### Results and Analysis
 -[Results and Analysis](results.md)
 
-Among the evaluated models, Logistic Regression and Decision Tree show similar performance, with the Support Vector Machine showing some improvement in class 1 recall.
-Further analysis and experimentation could focus on optimizing model parameters or exploring ensemble techniques to improve predictive performance, particularly for identifying delayed flights.
